@@ -1,7 +1,7 @@
 $HOME/.config/hypr/themes/theme.conf|> $HOME/.config/hypr/themes/colors.conf
 #  P̳r̳a̳s̳a̳n̳t̳h̳ R̳a̳n̳g̳a̳n̳
 
-$GTK_THEME = Rose-Pine
+$GTK_THEME = hypeWallpaper
 $ICON_THEME = Tela-circle-pink
 $COLOR_SCHEME = prefer-dark
 
@@ -13,9 +13,9 @@ exec = gsettings set org.gnome.desktop.interface gtk-theme $GTK_THEME
 exec = gsettings set org.gnome.desktop.interface color-scheme $COLOR_SCHEME
 
 general {
-    gaps_in = 3
-    gaps_out = 8
-    border_size = 2
+    gaps_in = 10
+    gaps_out = 20
+    border_size = 4
     col.active_border = rgba(eb6f92ff) rgba(c4a7e7ff) 45deg
     col.inactive_border = rgba(31748fcc) rgba(9ccfd8cc) 45deg
     layout = dwindle
@@ -39,7 +39,7 @@ decoration {
         offset = 0 0
         range = 6
         render_power = 1
-        color = 0xffff7edb
+        color = rgba(eb6f92ff)
     }
 
     blur {
