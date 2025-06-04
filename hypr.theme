@@ -30,14 +30,14 @@ group {
 }
 
 decoration {
-    rounding = 10
+    rounding = 20
    
     shadow {
         enabled = true
         scale = 1
         ignore_window = true
         offset = 0 0
-        range = 6
+        range = 8
         render_power = 1
         color = rgba(eb6f92ff)
     }
@@ -52,4 +52,4 @@ decoration {
     }
 }
 
-layerrule = blur,waybar
+layerrule = blur
